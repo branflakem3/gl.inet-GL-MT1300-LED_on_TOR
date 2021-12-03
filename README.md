@@ -1,4 +1,7 @@
 # gl.inet-GL-MT1300-LED_on_TOR
+
+## *NOTE: WORK IN PROGRESS, Not confirmed yet!!*
+
 This repo will attempt to provide useful information on how to setup the GL-MT1300 to change the LED when connected to TOR. Others have done it with VPN's but I have not found a repo with anything about the TOR function. 
 - [Thanks to ray308 on the gl-inet forums](https://forum.gl-inet.com/t/gl-mt1300-led-control-instructions/13338/22).
 
@@ -11,7 +14,7 @@ mv /usr/bin/mt1300_led_deamon /usr/bin/mt1300_led_deamon.OLD
 ```
 nano /usr/bin/mt1300_led_deamon
 ```
- 
+
 3. Paste this into file
 ```
 #!/bin/sh
